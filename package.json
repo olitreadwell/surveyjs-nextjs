@@ -19,6 +19,7 @@
     "survey-creator-react": "latest",
     "survey-pdf": "latest",
     "survey-react-ui": "latest",
+    "ace-builds": "latest",
     "wordcloud": "^1.2.2"
   },
   "devDependencies": {

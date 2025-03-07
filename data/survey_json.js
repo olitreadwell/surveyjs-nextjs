@@ -1,6 +1,6 @@
 export const json = {
   title: "Product Feedback Survey",
-  showProgressBar: "top",
+  showProgressBar: true,
   pages: [{
     elements: [{
       type: "matrix",
@@ -39,15 +39,15 @@ export const json = {
       type: "rating",
       name: "satisfaction",
       title: "How satisfied are you with the product?",
-      mininumRateDescription: "Not satisfied",
-      maximumRateDescription: "Completely satisfied"
+      minRateDescription: "Not satisfied",
+      maxRateDescription: "Completely satisfied"
     }, {
       type: "rating",
       name: "recommend friends",
       visibleIf: "{satisfaction} > 3",
       title: "How likely are you to recommend the product to a friend or colleague?",
-      mininumRateDescription: "Won't recommend",
-      maximumRateDescription: "Will recommend"
+      minRateDescription: "Won't recommend",
+      maxRateDescription: "Will recommend"
     }, {
       type: "comment",
       name: "suggestions",

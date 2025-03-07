@@ -2,7 +2,7 @@
 
 import { Model } from 'survey-core'
 import { Survey } from 'survey-react-ui'
-import 'survey-core/defaultV2.css'
+import 'survey-core/survey-core.css'
 import { json } from '../../data/survey_json.js'
   
 export default function SurveyComponent() {

@@ -3,13 +3,15 @@
 import { useState } from "react";
 import { ICreatorOptions } from "survey-creator-core";
 import { SurveyCreatorComponent, SurveyCreator } from "survey-creator-react";
-import "survey-core/defaultV2.css";
+import "survey-core/survey-core.css";
 import "survey-creator-core/survey-creator-core.css";
+// Enable Ace Editor in the JSON Editor tab
+import "ace-builds/src-noconflict/ace";
+import "ace-builds/src-noconflict/ext-searchbox";
 
 import { json as defaultJson } from "../../data/survey_json";
 
 const defaultCreatorOptions: ICreatorOptions = {
-  showLogicTab: true,
   showTranslationTab: true
 };
 
